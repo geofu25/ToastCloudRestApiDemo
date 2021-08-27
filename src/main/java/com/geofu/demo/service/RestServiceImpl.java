@@ -152,8 +152,7 @@ public class RestServiceImpl implements RestService {
         return response.getBody();
     }
 
-	
-    private String request(String address, String token) {
+	private String request(String address, String token) {
         
         // 헤더 생성
         HttpHeaders headers = new HttpHeaders();
